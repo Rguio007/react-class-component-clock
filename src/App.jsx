@@ -1,6 +1,7 @@
 import "./App.css";
 import Clock from "./Clock.jsx";
 import OnSubmit from "./onSubmit";
+import OnlyNumbers from "./OnlyNumbers";
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
         <header className="App-header">
           <Clock />
           <OnSubmit />
+          <OnlyNumbers />
         </header>
       </div>
     </>
